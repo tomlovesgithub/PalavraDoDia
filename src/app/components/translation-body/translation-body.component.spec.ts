@@ -22,4 +22,17 @@ describe('TranslationBodyComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have title', () => {
+    expect(fixture.nativeElement.querySelector('.pageTitle').innerText).toBe('Palavra Do Dia');
+  });
+
+  it('should have origin text box', () => {
+    expect(fixture.nativeElement.querySelector('.originText')).toBeTruthy();
+  });
+
+  it('should have translated text box', () => {
+    expect(fixture.nativeElement.querySelector('.translatedText')).toBeTruthy();
+  });
+
 });
