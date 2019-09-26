@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { TranslationBodyComponent } from './components/translation-body/translation-body.component';
+import { TranslationBodyComponent } from './src/components/translation-body/translation-body.component';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { TranslationBodyComponent } from './components/translation-body/translat
     TranslationBodyComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

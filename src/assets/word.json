@@ -1,0 +1,54 @@
+{
+  "list": [
+    {
+      "origin": {
+        "word": "Sonâmbulo",
+        "example": "acordar um sonâmbulo"
+      },
+      "translated": {
+        "word": "Sleepwalker",
+        "example": "to wake up a sleepwalker"
+      }
+    },
+    {
+      "origin": {
+        "word": "Sombrio",
+        "example": "Eu o observei de um canto sombrio."
+      },
+      "translated": {
+        "word": "Shadowy",
+        "example": "I watched him from a shadowy corner."
+      }
+    },
+    {
+      "origin": {
+        "word": "concorrente",
+        "example": "Nico é um concorrente feroz..."
+      },
+      "translated": {
+        "word": "competitor",
+        "example": "Nico is one feirce competitor..."
+      }
+    },
+    {
+      "origin": {
+        "word": "beleza",
+        "example": "Que beleza!"
+      },
+      "translated": {
+        "word": "prettiness",
+        "example": "What prettiness!"
+      }
+    },
+    {
+      "origin": {
+        "word": "cumprir",
+        "example": "o acordo não se cumpriu como desejado"
+      },
+      "translated": {
+        "word": "fulfill/accomplish",
+        "example": "the agreement will not be fulfilled as desired"
+      }
+    }
+  ]
+}
