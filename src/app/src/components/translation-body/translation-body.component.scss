@@ -8,27 +8,21 @@
 .pageBox{
   display: inline-block;
   position: relative;
-  width: 60%;
+  width: 100%;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
 }
 
 .originText{
-  background-color: orange;
-  float:left;
-  width:25%;
+  float:right;
+  width:30%;
+  margin: 10%;
 }
 
 .translatedText{
-  background-color: orange;
-  float:right;
-  width:25%;
+  // background-color: orange;
+  float:left;
+  width:30%;
+  margin: 10%;
 }
-//
-// .word{
-// background-color: brown;
-// }
-//
-// .example{
-// background-color: purple;
-// }

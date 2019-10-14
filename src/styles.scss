@@ -1,10 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
-html{
+html, body{
   height: 100vh;
   width: 100vw;
   position: absolute;
+  overflow: hidden;
 }
 
 *{
-
+  padding: 0%;
+  margin: 0%;
 }
+
+body{
+  background:#03fce3;
+  color: yellow;
+  text-align:center;
+  font-family:"Trebuchet MS";
+  text-transform:uppercase;
+  padding-top:2em;
+
+  background: linear-gradient(
+    to bottom,
+    #03fce3,
+    #03fce3 50%,
+    powderblue 50%,
+    powderblue
+    );
+    background-size: 100% 4px;
+    animation: gradientMove 200ms ease infinite;
+  }
+  .pageTitle{
+    font-size:4em;
+    text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
+    animation: chromaticMove 4500ms ease infinite, pulse alternate ease 200ms  infinite;
+  }
+
+  .pageBox{
+    display:block;
+    text-transform:initial;
+    font-size:24px;
+    animation: chromaticMove 4500ms ease infinite;
+  }
+
+  @keyframes gradientMove {
+    0%{background-size: 100% 4px}
+    50%{background-size: 100% 2px}
+    100%{background-size: 100% 4px}
+  }
+
+  @keyframes pulse {
+    0%{ opacity:.9;transform: skewX(.5deg);}
+    25%{ opacity:1;}
+    50%{opacity:.9;}
+    75%{ opacity:1; transform:skewX(.5deg);}
+    100%{opacity:.9;}
+  }
+  @keyframes chromaticMove {
+    0%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),0px 0px -2px rgba(52, 251, 12, 1);}
+    50%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 2px 3px rgba(52, 251, 12, 1);}
+    100%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),2px -1px 2px rgba(52, 251, 12, 1);}
+  }

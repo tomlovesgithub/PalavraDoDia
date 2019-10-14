@@ -10,6 +10,6 @@ export class DataService {
   constructor(private httpClient: HttpClient) { }
 
   getWord$() {
-    return this.httpClient.get<any>('assets/word.json')
+    return this.httpClient.get<any>(`assets/word.json`)
   }
 }

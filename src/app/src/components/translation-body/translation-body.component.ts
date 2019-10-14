@@ -35,7 +35,7 @@ export class TranslationBodyComponent implements OnInit {
       (res) => {
         console.log(res.list)
         // console.log(this.dayOfTheYear/73)
-        this.word$ = res.list[Math.floor(this.dayOfTheYear/73)]
+        this.word$ = res.list[Math.floor(this.dayOfTheYear/45.45)]
         // [(Math.floor(Math.random() * 5))]
       },
       (err) => console.log(err),
