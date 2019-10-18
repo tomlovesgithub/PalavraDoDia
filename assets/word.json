@@ -1,0 +1,92 @@
+{
+  "list": [
+    {
+      "origin": {
+        "word": "Sonâmbulo",
+        "example": "acordar um sonâmbulo"
+      },
+      "translated": {
+        "word": "Sleepwalker",
+        "example": "to wake up a sleepwalker"
+      }
+    },
+
+    {
+      "origin": {
+        "word": "Sombrio",
+        "example": "Eu o observei de um canto sombrio."
+      },
+      "translated": {
+        "word": "Shadowy",
+        "example": "I watched him from a shadowy corner."
+      }
+    },
+
+    {
+      "origin": {
+        "word": "concorrente",
+        "example": "Nico é um concorrente feroz..."
+      },
+      "translated": {
+        "word": "competitor",
+        "example": "Nico is one feirce competitor..."
+      }
+    },
+
+    {
+      "origin": {
+        "word": "beleza",
+        "example": "Que beleza!"
+      },
+      "translated": {
+        "word": "prettiness",
+        "example": "What prettiness!"
+      }
+    },
+
+    {
+      "origin": {
+        "word": "cumprir",
+        "example": "o acordo não se cumpriu como desejado"
+      },
+      "translated": {
+        "word": "fulfill/accomplish",
+        "example": "the agreement will not be fulfilled as desired"
+      }
+    },
+
+    {
+      "origin": {
+        "word": "aquiescente",
+        "example": "As massas são geralmente aquiescentes e políticas"
+      },
+      "translated": {
+        "word": "acquiescent",
+        "example": "the masses are generally acquiescent and political"
+      }
+    },
+
+    {
+      "origin": {
+        "word": "igualmente",
+        "example": "Devemos compartilhá-lo igualmente entre todos nós."
+      },
+      "translated": {
+        "word": "equally",
+        "example": "We must share it equally among all of us."
+      }
+    },
+
+    {
+      "origin": {
+        "word": "consternados",
+        "example": "A afronta foi aguda, mas os orcs ficaram consternados com a ferocidade da defesa."
+      },
+      "translated": {
+        "word": "dismayed",
+        "example": "The affray was sharp, but the orcs were dismayed by the ferocity of the defense."
+      }
+    }
+
+  ]
+}
